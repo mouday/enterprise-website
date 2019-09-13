@@ -1,0 +1,218 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" type="text/css">
+    <script src="js/myfocus-2.0.1.min.js"></script>
+    <script src="js/mf-pattern/mF_kdui.js"></script>
+    <link rel="stylesheet" href="js/mf-pattern/mF_kdui.css">
+
+    <script>
+        myFocus.set({id:'boxID', loadIMGTimeout:"0"});
+    </script>
+</head>
+<body>
+
+    <div class="top">
+        <div class="top-content">
+            <ul>
+                <li> <a href="#" onclick="alert('联系我们')">联系我们</a></li>
+                <li> <a href="#" onclick="alert(window.location.href)">加入收藏</a></li>
+                <li> <a href="#" onclick="alert(document.title)">设为首页</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- top结束 -->
+
+    <div class="wrap">
+        <div class="logo">
+            <div class="logo-left">
+                <img src="./images/logo.jpg" alt="慕课网">
+            </div>
+            <div class="logo-right">
+                <img src="./images/tel.jpg" alt="服务热线">
+                24小时服务热线：<span class="tel">123-456-7890</span>
+            </div>
+        </div>
+    <!-- logo结束 -->
+        
+        <div class="nav">
+            <div class="nav-left"></div>
+            <div class="nav-mid">
+                <div class="nav-mid-left">
+                    <ul>
+                        <li><a href="#">首页</a></li>
+                        <li><a href="#">关于慕课</a></li>
+                        <li><a href="#">新闻动态</a></li>
+                        <li><a href="#">课程中心</a></li>
+                        <li><a href="#">在线课程</a></li>
+                        <li><a href="#">人才招聘</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-mid-right">
+                    <form action="" method="post">
+                        <input type="text" class="search-text">
+                    </form>
+                </div>
+            </div>
+            <!-- nav-mid结束 -->
+            <div class="nav-right"></div>
+        </div>  
+        <!-- nav 结束 -->
+
+        <div class="ad-box" id="boxID"><!--焦点图盒子-->
+          <!-- <div class="loading"><img src="./images/loading.gif" alt="请稍候..." /></div> --><!--载入画面(可删除)-->
+          <div class="pic"><!--内容列表(li数目可随意增减)-->
+            <ul>
+                <li><a href="#"><img src="./images/ad2.jpg" thumb="" alt="" text="详细描述1" /></a></li>
+                <li><a href="#"><img src="./images/ad3.jpg" thumb="" alt="" text="详细描述2" /></a></li>
+                <li><a href="#"><img src="./images/ad4.jpg" thumb="" alt="" text="详细描述3" /></a></li>
+            </ul>
+          </div>
+        </div>
+        <!--焦点图盒子结束-->
+        
+    <div class="main">
+        <div class="news">
+            <div class="title">
+                <h2 class="title-text">新闻中心</h2>
+                <span class="title-more"><a href="#">more &gt;&gt; </a></span>
+            </div>
+            
+            <div class="content">
+                <div class="news-pic">
+                    <img src="./images/news.jpg" alt="">
+                    
+                    <div class="news-hot">
+                        <h2><a href="#">520慕课女神喊你来告白！</a></h2>
+                        <p>活动时间：5月1日-5月20日</p>
+                        <p>获奖公布时间：5月26日</p>
+                        <p><a href="#">了解更多 &gt;&gt;</a></p>
+                    </div>
+                </div>
+                
+                <!-- 图片新闻结束 -->
+
+                <div class="news-list">
+                    <ul>
+                        <!-- 日期放左侧，可以解决right浮动在IE下错位的问题 -->
+                        <li><span>2019-09-10</span><a href="#" title="伊拉克神殿踩踏，不过这条新闻的文字特别长，要超过本行的宽度">伊拉克神殿踩踏，不过这条新闻的文字特别长，要超过本行的宽度</a></li>
+                        <li><span>2019-09-10</span><a href="#">马云今日卸任</a></li>
+                        <li><span>2019-09-10</span><a href="#">阿里新六脉神剑</a></li>
+                        <li><span>2019-09-10</span><a href="#">猪肉涨价原因</a></li>
+                        <li><span>2019-09-10</span><a href="#">iPhone浴霸三摄</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 新闻中心结束 -->
+
+
+        <div class="course">
+            <div class="title">
+                <h2 class="title-text">课程中心</h2>
+                <span class="title-more"><a href="#">more &gt;&gt; </a></span>
+            </div>    
+            <div class="content">
+                <div class="course-pic">
+                    <img src="images/css.jpg" alt="">
+                      <div class="course-hot">
+                        <h2><a href="#">模板层提供了一个对设计者友好的语法</a></h2>
+                        <p>模板层提供了一个对设计者友好的语法用于渲染向用户呈现的信息。学习如何使用语法（面向设计者）以及如何扩展（面向程序员）</p>
+                        
+                    </div>
+                    <div style="clear: both;"></div>
+                </div>
+
+                <div class="course-type">
+                    <ul>
+                        <li>前端开发</li>
+                        <li>PHP开发</li>
+                        <li>Python开发</li>
+                        <li>Java开发</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 课程中心结束 -->
+
+        <div class="sidebar">
+            
+            <div class="title">
+                <h2 class="title-text">媒体聚焦</h2>
+                <span class="title-more"><a href="#">more &gt;&gt; </a></span>
+            </div>
+            <div class="content">
+                <div class="video">
+                   <iframe frameborder="0" width="200px" height="130px" src="https://v.qq.com/txp/iframe/player.html?vid=h0926a2vos7" allowFullScreen="true"></iframe>
+                </div>
+                <div class="ad">
+                    <img src="images/app.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- main结束  -->
+    </div>
+    <!-- wrap结束 -->
+    
+
+    <div class="copyright">
+        <div class="copyright-content">
+            <ul>
+                <li><a href="#"> 关于</a>
+                    <ul>
+                        <li><a href="#"> 品牌故事</a></li>
+                        <li><a href="#"> 联系我们</a></li>
+                        <li><a href="#"> 加入我们</a></li>
+                        <li><a href="#"> 版权声明</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"> 课程</a>
+                    <ul>
+                        
+                        <li><a href="#"> PHP开发</a></li>
+                        <li><a href="#"> 前端开发</a></li>
+                        <li><a href="#"> JAVA开发</a></li>
+                        <li><a href="#"> Python开发</a></li>
+                    </ul>
+                </li>
+                <li>
+                        <a href="#"> 留言</a>
+                    <ul>
+                        <li><a href="#"> 新浪微博</a></li>
+                        <li><a href="#"> 腾讯微博</a></li>
+                        <li><a href="#"> 企业微信</a></li>
+                        <li><a href="#"> QQ空间</a></li>
+                    </ul>
+                </li>
+                <li>
+                        <a href="#"> 关注</a>
+                    <ul>
+                        <li><a href="#"> 留言反馈</a></li>
+                        <li><a href="#"> 问题留言</a></li>
+                        <li><a href="#"> 媒体联络</a></li>
+                        <li><a href="#"> 在线客服</a></li>
+                    </ul>
+                </li>
+                <li>
+                        <a href="#"> <img src="images/weixin.png" alt="">微信关注</a>
+
+                    <ul>
+                        <li><img src="images/qrcode.jpg" alt=""></li>
+                        
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+    <!-- 底部版权区结束 -->
+</body>
+</html>
